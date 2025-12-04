@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/Capstone-Project/',
   plugins: [react()],
-  base: '/Capstone/',   // MUST match your repo name EXACTLY
 })
